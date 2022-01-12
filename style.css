@@ -1,0 +1,75 @@
+@import "reset.css";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+li {
+    display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: red;
+}
+li a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: white;
+}
+.active {
+    background-color: grey;
+  }
+a {
+    display:inline-block;
+    padding: 8px;
+}
+#logo1 {
+    margin-left: 40px;
+    margin-top: 90px;
+    border-radius: 50px;
+}
+#title {
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+#figure1 {
+    margin-left: 40px;
+    margin-top: 20px;
+    width:900px;
+    height: 500px;
+}
+#staff {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.history {
+    margin-left: 40px;
+    color: white;
+    font-size: medium;
+}
+#thanks {
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+    font-size: large;
+}
+main {
+    display: flex;
+}
+footer {
+    background-color: red;
+    padding: 40px;
+    text-align: center;
+    font-weight: bolder;
+}

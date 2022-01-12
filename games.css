@@ -1,0 +1,112 @@
+@import "reset.css";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+li {
+    display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: red;
+}
+li a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: white;
+}
+.active {
+    background-color: grey;
+  }
+a {
+    display:inline-block;
+    padding: 8px;
+}
+#logo1 {
+    margin-left: 40px;
+    margin-top: 90px;
+    border-radius: 50px;
+}
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 0 20px;
+    color: white;
+}
+.games-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.games-grid .game {
+  flex-basis: 30%;
+  margin-bottom: 2rem;
+  border: 5px solid white;
+  display: block; 
+}
+.game .image-container {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.game .image-container img {
+   max-width: 100%;
+   border: 1px solid black;
+}
+.game .title-container {
+    text-align: center;
+}
+.game .title-container .product-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    text-decoration: none;
+}
+.game .price-container {
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+}
+.price-container .old-price {
+    text-decoration: line-through red;
+    font-size: 1rem;
+}
+.price-container .old-price, .price-container .price {
+    margin: 0.5rem
+}
+.game .description-container {
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.game .buy-contanier {
+  padding: 1rem;
+  text-align: center;
+}
+.buy-button {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    background: red;
+    color: black;
+    border-radius: 10px;
+}
+main {
+    display: flex;
+}
+footer {
+    background-color: red;
+    padding: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
