@@ -1,0 +1,89 @@
+@import "reset.css";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+li {
+    display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: red;
+}
+li a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: white;
+}
+.active {
+    background-color: grey;
+  }
+a {
+    display:inline-block;
+    padding: 8px;
+}
+#logo1 {
+    margin-left: 40px;
+    margin-top: 90px;
+    border-radius: 50px;
+}
+
+main {
+   display: flex;  
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 0 20px;
+    color: white;
+}
+.form-group {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 450px;
+    width: 50px;
+
+}
+
+.form-group label {
+    color:white;
+    font-weight: bolder;
+}
+
+.form-group .form-control {
+    flex-basis: 75%;
+    border: 1px solid #b08cbe;
+    height: 1.5rem;
+    padding: 10px 15px;
+    width: 1000%;
+}
+.form-group .form-button{
+    padding: 2rem 3rem;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    background: red;
+    color: black;
+    border-radius: 10px;
+    margin-left: 165.5px;
+}
+   
+
+.form-group .form-textarea {
+    height: 25vh;
+}
+footer {
+    background-color: rgb(255, 0, 0);
+    padding: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
