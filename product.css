@@ -1,0 +1,98 @@
+@import "reset.css";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+li {
+    display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: red;
+}
+li a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: white;
+}
+.active {
+    background-color: grey;
+  }
+a {
+    display:inline-block;
+    padding: 8px;
+}
+#logo1 {
+    margin-left: 40px;
+    margin-top: 90px;
+    border-radius: 50px;
+}
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 0 20px;
+    color: white;
+}
+main {
+display: flex;
+}
+.product-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.product-info-container .image-container,
+.product-info-container .buy-container {
+ flex-basis: 50%;
+}
+.product-info-container .buy-container {
+    margin-top: 110px;
+}
+.product-info-container .price-container .price {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+p {
+    color: white;
+    font-weight: bold;
+}
+.product-info-container .price-container .old-price {
+    font-size: 20px;
+    color: white;
+    text-decoration: line-through red;
+    font-weight: bold;
+}
+.buy-button {
+    padding: 1rem 1.5rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    background: red;
+    color: black;
+    border-radius: 10px;
+}
+.wishlist-button {
+    padding: 1rem 1.5rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    background: #F1EFE9;
+    color: black;
+    border-radius: 10px;
+}
+footer {
+    background-color: red;
+    padding: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+.description-container p {
+    margin-bottom: 20px;
+}
